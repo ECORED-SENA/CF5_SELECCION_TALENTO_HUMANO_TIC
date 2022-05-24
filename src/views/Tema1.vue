@@ -162,65 +162,43 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img18.png', alt='')
 
     .bg4
-      //- .row.justify-content-center.align-items-center.pt-5
-      //-   .col-lg-6
-      //-     img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img19.svg', alt='')          
-      //-   .col-lg-6
-      //-     ImagenInfografica.color-secundario.mb-5
-      //-       template(v-slot:imagen)
-      //-         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img20.svg', alt='')
-      //-       .tarjeta.color-acento-botones.p-3(x="31.4%" y="25.5%" numero="")
-      //-         .row.justify-content-center.align-items-center
-      //-           .col-8.p-0
-      //-             .h5 Primarias
-      //-           .col-auto.p-0
-      //-             img.img-w(src='@/assets/curso/temas/01.svg', alt='')
-      //-         p Desarrollan su actividad económica a través de los recursos naturales.                  
-      //-       .tarjeta.color-primario.text-white.p-3(x="65.8%" y="22%" numero="")
-      //-         .row.justify-content-center.align-items-center
-      //-           .col-8.p-0
-      //-             .h5 Secundarias                  
-      //-           .col-auto.p-0
-      //-             img.img-w(src='@/assets/curso/temas/02.svg', alt='')
-      //-         p Llevan a cabo su actividad económica a través de la transformación de los productos.                  
-      //-       .tarjeta.color-acento-botones.p-3(x="31.5%" y="68%" numero="")
-      //-         .row.justify-content-center.align-items-center
-      //-           .col-8.p-0
-      //-             .h5 Terciarias
-      //-           .col-auto.p-0
-      //-             img.img-w(src='@/assets/curso/temas/03.svg', alt='')
-      //-         p Desarrollan su actividad económica al brindar servicios y comercio.                  
-      //-       .tarjeta.color-primario.text-white.p-3(x="65.8%" y="68%" numero="")
-      //-         .row.justify-content-center.align-items-center
-      //-           .col-8.p-0
-      //-             .h5 Cuaternarias
-      //-           .col-auto.p-0
-      //-             img.img-w(src='@/assets/curso/temas/04.svg', alt='')
-      //-         p Brinda apoyo a las unidades de líneas. Siempre están dependiendo de la alta gerencia y por lo general su comucación ingresa por la derecha o izquierda del rectángulo o cuadrado, y brindan asesoramiento a los demás departamentos o unidades. también llamada línea staff, se representa de manera punteada.
+      .row.justify-content-center.align-items-center.pt-5
+        .col-lg-6
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img19.svg', alt='')          
+        .col-lg-6
+          ImagenInfografica.color-secundario.mb-5
+            template(v-slot:imagen)
+              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img20.svg', alt='')
+            .tarjeta.color-acento-botones.p-3(x="31.4%" y="25.5%" numero="")
+              .row.justify-content-center.align-items-center
+                .col-8.p-0
+                  .h5 Primarias
+                .col-auto.p-0
+                  img.img-w(src='@/assets/curso/temas/01.svg', alt='')
+              p Desarrollan su actividad económica a través de los recursos naturales.                  
+            .tarjeta.color-primario.text-white.p-3(x="65.8%" y="22%" numero="")
+              .row.justify-content-center.align-items-center
+                .col-8.p-0
+                  .h5 Secundarias                  
+                .col-auto.p-0
+                  img.img-w(src='@/assets/curso/temas/02.svg', alt='')
+              p Llevan a cabo su actividad económica a través de la transformación de los productos.                  
+            .tarjeta.color-acento-botones.p-3(x="31.5%" y="68%" numero="")
+              .row.justify-content-center.align-items-center
+                .col-8.p-0
+                  .h5 Terciarias
+                .col-auto.p-0
+                  img.img-w(src='@/assets/curso/temas/03.svg', alt='')
+              p Desarrollan su actividad económica al brindar servicios y comercio.                  
+            .tarjeta.color-primario.text-white.p-3(x="65.8%" y="68%" numero="")
+              .row.justify-content-center.align-items-center
+                .col-8.p-0
+                  .h5 Cuaternarias
+                .col-auto.p-0
+                  img.img-w(src='@/assets/curso/temas/04.svg', alt='')
+              p Brinda apoyo a las unidades de líneas. Siempre están dependiendo de la alta gerencia y por lo general su comucación ingresa por la derecha o izquierda del rectángulo o cuadrado, y brindan asesoramiento a los demás departamentos o unidades. también llamada línea staff, se representa de manera punteada.
 
-      .row.mt-5.d-flex.align-items-center.justify-content-center
-        .col.col-12.col-lg-4.d-flex.justify-content-end
-          img.img450(src='@/assets/curso/temas/img19.svg', alt='', class='img-fluid')
-        .col.col-12.col-lg-7
-          .row.d-flex.justify-content-center.position-relative
-            .col-12
-              .simbologia.d-flex.justify-content-center
-                img.img180(src='@/assets/curso/temas/img19_1.svg', alt='', class='img-fluid' @mouseover="btnIndice = 0"  @mouseleave="btnIndice = null")
-                img.img180(src='@/assets/curso/temas/img19_2.svg', alt='', class='img-fluid' @mouseover="btnIndice = 1"  @mouseleave="btnIndice = null")
-            .col-12
-              .simbologia.d-flex.justify-content-center
-                  img.img180(src='@/assets/curso/temas/img19_3.svg', alt='', class='img-fluid' @mouseover="btnIndice = 2"  @mouseleave="btnIndice = null")
-                  img.img180(src='@/assets/curso/temas/img19_4.svg', alt='', class='img-fluid' @mouseover="btnIndice = 3"  @mouseleave="btnIndice = null")
 
-            div.dialogo(
-                v-for="(boton, index) in botones" 
-                v-if="(index === btnIndice)" 
-                :style="{left:boton.left, top:boton.top}"
-                :class="{dialogo__azul: boton.color === 'azul', dialogo__gris: boton.color === 'gris'}")
-              div.position-relative
-                p.titulo_modal(:class="{titulo_modal_azul: boton.color === 'azul', titulo_modal_gris: boton.color === 'gris'}") {{ boton.numero }}
-              h5 {{ boton.titulo }}
-              p {{ boton.texto }}      
 
       .cajon.color-acento-contenido.p-4.mt-5(data-aos="flip-down")
         p(data-aos="fade-down").mb-0 Las organizaciones hacen una o varias actividades en su gestión mercantil; por lo tanto, cuando se dedican solo a una actividad se les denomina como monoproductora; y cuando hace el ejercicio con diferentes actividades se les llama multiproductora.
