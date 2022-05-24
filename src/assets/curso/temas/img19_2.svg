@@ -17,7 +17,7 @@
       <stop offset="0.994" stop-color="#e0e1e3"/>
     </linearGradient>
   </defs>
-  <g id="Grupo_166932" data-name="Grupo 166932" transform="translate(-1013.167 -3124.933)">
+  <g id="Grupo_166931" data-name="Grupo 166931" transform="translate(-1013.167 -3124.933)">
     <g id="Grupo_152736" data-name="Grupo 152736" transform="translate(129.997 1134.381)">
       <circle id="Elipse_5011" data-name="Elipse 5011" cx="85.113" cy="85.113" r="85.113" transform="translate(883.17 2110.919) rotate(-45)" fill="url(#linear-gradient)"/>
       <path id="Trazado_188207" data-name="Trazado 188207" d="M1709.275,749.478l-10.083,10.037-7.237,7.2a2.864,2.864,0,0,1-4.885-2.03V754.124a85.113,85.113,0,0,1-85.112-85.113q0-3.365.258-6.666a85.119,85.119,0,0,0,84.854,78.446V730.207a2.864,2.864,0,0,1,4.885-2.03l7.237,7.2,10.083,10.037A2.864,2.864,0,0,1,1709.275,749.478Z" transform="translate(-683.533 1454.312)" fill="#b0c0d2"/>
@@ -130,7 +130,7 @@
           <circle id="Elipse_5001" data-name="Elipse 5001" cx="68.09" cy="68.09" r="68.09" transform="translate(0 96.294) rotate(-45)" fill="url(#linear-gradient-2)"/>
           <circle id="Elipse_5002" data-name="Elipse 5002" cx="64.686" cy="64.686" r="64.686" transform="translate(4.815 96.294) rotate(-45)" fill="url(#linear-gradient-3)"/>
         </g>
-        <text id="Secuandarias" transform="translate(53.424 131.375)" fill="#12263f" font-size="15" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Secuandarias</tspan></text>
+        <text id="Secundarias" transform="translate(53.424 131.375)" fill="#12263f" font-size="15" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Secundarias</tspan></text>
         <circle id="Elipse_5691" data-name="Elipse 5691" cx="21.833" cy="21.833" r="21.833" transform="matrix(0.16, -0.987, 0.987, 0.16, 71.246, 102.824)" fill="#12263f"/>
         <text id="_02" data-name="02" transform="translate(82.738 92.657)" fill="#fff" font-size="23" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">02</tspan></text>
       </g>
