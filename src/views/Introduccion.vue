@@ -14,7 +14,7 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img2.png', alt='')
       .col-lg-8.my-3
         p Le damos la bienvenida al componente formativo, 
-          span.c-purple “Planeación organizacional y de talento humano”
+          span.c-purple #[b “Planeación organizacional y de talento humano”]
           span . Para comenzar satisfactoriamente este recorrido, se invita a explorar el recurso que se muestra a continuación: 
 
     .row.justify-content-center.align-items-center.mt-5           
