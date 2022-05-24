@@ -237,14 +237,14 @@
               p(data-aos="fade-down").mb-0 #[b Una vez se establecen las bases de la filosofía organizacional se crea una cultura.]           
           p(data-aos="fade-down").mt-4 Como las organizaciones están compuestas por personas dentro de las mismas, desde su fundación y transformación con los años se crea una cultura organizacional que rige la forma de actuar de cada empresa;  para entender un poco más sobre el tema, a continuación se brindan las siguientes definiciones:
       .row.justify-content-evenly.align-items-stretch.mt-5
-        .col-lg-5.text-white.bg-purple.p-5(data-aos="fade-left")
+        .col-lg-5.text-white.bg-purple.p-5.my-3(data-aos="fade-left")
           img.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img25.svg', alt='')
           p(data-aos="fade-down").mt-4 Es un conjunto de tradiciones, costumbres, ideas y forma de hacer las cosas de un grupo de personas o comunidad y que las diferencia de otras.
           .row.justify-content-end.align-items-end.mt-4
             .col-2.d-none.d-lg-block
               img.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img27.svg', alt='')
 
-        .col-lg-5.text-white.bg-purple.p-5(data-aos="fade-right")
+        .col-lg-5.text-white.bg-purple.p-5.my-3(data-aos="fade-right")
           img.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img26.svg', alt='')
           p(data-aos="fade-down").mt-4 Es un conjunto de valores creencias, tradiciones, ideas, forma de hacer las cosas y tomar decisiones a nivel interno y externo en empresa que la diferencia de las demás.  Esta cultura organizacional influye en el actuar interno del personal, procesos y jerarquización; y a nivel externo con el mercado, clientes, proveedores y partes interesadas.
           .row.justify-content-end.align-items-end.mt-4
