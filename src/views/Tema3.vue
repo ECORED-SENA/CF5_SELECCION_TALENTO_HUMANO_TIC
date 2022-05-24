@@ -532,7 +532,7 @@
       .col-lg-8
         .row.justify-content-center.align-items-center.my-5.color1.p-3(data-aos="flip-down")        
           .col-auto.d-none.d-lg-block
-            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img70.svg', alt='')       
+            img.img-a.img-t.px-md-3(data-aos="zoom-in")(src='@/assets/curso/temas/img70.svg', alt='')       
           .col-lg-11
             p(data-aos="fade-down").mb-0 Es de aclarar que la creación de cargos puede también nacer de un nuevo procedimiento, norma o cambios en el entorno que vive la organización.
         p(data-aos="fade-down").mt-4 En la fase final del proceso, una vez el cargo es aprobado, ya sea en comité o por la alta gerencia, se procede a hacer la formalización de la creación del perfil del cargo con la información anteriormente recolectada. El “perfil de cargos” es un documento en el que están descritas, de forma puntual, las características y actividades que debe desarrollar el funcionario en el cargo, así como la formación y competencias que se requieren.
