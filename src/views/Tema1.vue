@@ -236,15 +236,15 @@
             .col-lg-9
               p(data-aos="fade-down").mb-0 #[b Una vez se establecen las bases de la filosofía organizacional se crea una cultura.]           
           p(data-aos="fade-down").mt-4 Como las organizaciones están compuestas por personas dentro de las mismas, desde su fundación y transformación con los años se crea una cultura organizacional que rige la forma de actuar de cada empresa;  para entender un poco más sobre el tema, a continuación se brindan las siguientes definiciones:
-      .row.justify-content-center.align-items-stretch.mt-5
-        .col-lg-6.text-white.bg-purple.p-5(data-aos="fade-left")
+      .row.justify-content-evenly.align-items-stretch.mt-5
+        .col-lg-5.text-white.bg-purple.p-5(data-aos="fade-left")
           img.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img25.svg', alt='')
           p(data-aos="fade-down").mt-4 Es un conjunto de tradiciones, costumbres, ideas y forma de hacer las cosas de un grupo de personas o comunidad y que las diferencia de otras.
           .row.justify-content-end.align-items-end.mt-4
             .col-2.d-none.d-lg-block
               img.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img27.svg', alt='')
 
-        .col-lg-6.text-white.bg-purple.p-5(data-aos="fade-right")
+        .col-lg-5.text-white.bg-purple.p-5(data-aos="fade-right")
           img.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img26.svg', alt='')
           p(data-aos="fade-down").mt-4 Es un conjunto de valores creencias, tradiciones, ideas, forma de hacer las cosas y tomar decisiones a nivel interno y externo en empresa que la diferencia de las demás.  Esta cultura organizacional influye en el actuar interno del personal, procesos y jerarquización; y a nivel externo con el mercado, clientes, proveedores y partes interesadas.
           .row.justify-content-end.align-items-end.mt-4
@@ -262,10 +262,10 @@
           p(data-aos="fade-down") Como se estudió anteriormente, las organizaciones se crean con propósitos y la importancia de cumplirlos es la razón de ser para fundarlas, por eso se debe tener un direccionamiento continuo basado en estrategias, cumpliendo unos roles de los integrantes que deben asumir teniendo en cuenta que todos no pueden hacer las mismas actividades o tareas, ya que la división del trabajo o responsabilidades conllevan a que cada persona aporte su grano de arena en la consecución de las metas establecidas.
           .bg-cajon
             .cajon.color-secundario.p-4.mt-4(data-aos="flip-down")
-              p(data-aos="fade-down").mb-0 Para ello, en las organizaciones se generan unos niveles para dar un orden y una secuencia lógica a los procesos que se deban llevar a cabo para conseguir el éxito empresarial.
+              p(data-aos="fade-down").mb-0 #[b Para ello, en las organizaciones se generan unos niveles para dar un orden y una secuencia lógica a los procesos que se deban llevar a cabo para conseguir el éxito empresarial.]
 
-      p(data-aos="fade-down").mt-5 A continuación, se verá ese orden reflejado en 
-        span.c-purple los niveles organizacionales. 
+      p(data-aos="fade-down").mt-5.p-under1 A continuación, se verá ese orden reflejado en 
+        span.c-purple #[b los niveles organizacionales.]
       img.img-a.img-t.mt-5(data-aos="zoom-in")(src='@/assets/curso/temas/img30.svg', alt='')    
       
     Separador 
@@ -275,9 +275,9 @@
     img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img31.jpg', alt='')
     .row.justify-content-center.align-items-center
       .col-10.img-text(data-aos="flip-down")
-        p.p-3.mb-0.d-none.d-lg-block Este proceso está basado en unas fases secuenciales que tienen como propósito darle un orden a las organizaciones para garantizar el cumplimiento de la misión, visión y estrategias para lograr su sostenibilidad. En la siguiente figura se representan las fases para una mayor comprensión.            
+        p.p-3.mb-0.d-none.d-lg-block Este proceso está basado en unas fases secuenciales que tienen como propósito darle un orden a las organizaciones para garantizar el cumplimiento de la misión, visión y estrategias para lograr su sostenibilidad. #[b En la siguiente figura se representan las fases para una mayor comprensión.]
 
-    p.bg-p1.p-3.mb-0.d-block.d-lg-none Este proceso está basado en unas fases secuenciales que tienen como propósito darle un orden a las organizaciones para garantizar el cumplimiento de la misión, visión y estrategias para lograr su sostenibilidad. En la siguiente figura se representan las fases para una mayor comprensión.  
+    p.bg-p1.p-3.mb-0.d-block.d-lg-none Este proceso está basado en unas fases secuenciales que tienen como propósito darle un orden a las organizaciones para garantizar el cumplimiento de la misión, visión y estrategias para lograr su sostenibilidad. #[b En la siguiente figura se representan las fases para una mayor comprensión.]  
 
     .titulo-sexto.color-acento-botones.mt-5
       h5 Figura 2. 
@@ -289,15 +289,15 @@
         .col-lg-12
           .bloque-texto-a__texto.p-4
             p.mb-0 Este proceso en realidad lo viven todos los seres humanos en sus vidas cotidianas ya sean sus hogares, estudio o trabajo, lo importante es identificar y aplicar las fases para una mejor gestión de las metas y propósitos que se tienen.
-    p(data-aos="fade-down").mt-5.p-under #[b Se invita a conocer más sobre cada una de estas fases:]      
-    SlyderA.mt-5(data-aos="fade-left")
+    p(data-aos="fade-down").mt-5.p-under.size-t #[b Se invita a conocer más sobre cada una de estas fases:]      
+    SlyderA(tipo="b").mt-5(data-aos="fade-left")
       .row.justify-content-center.align-items-center
         .col-11
           .row.justify-content-center.align-items-center.bg7.p-4.b-rad  
             .col-lg-4
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img33.svg', alt='')
             .col-lg-6
-              h5 Planear
+              h4 Planear
               .color-fondo-text.bg-color
                 .color-fondo-text__texto 
                   p Se hace un diagnóstico de la situación actual que se quiere mejorar, se generan estrategias que brinden soluciones y se establecen las actividades ya sean inmediatas a corto, mediano o largo plazo.
@@ -305,7 +305,7 @@
         .col-11
           .row.justify-content-center.align-items-center.bg8.p-4.b-rad  
             .col-lg-6
-              h5 Organizar
+              h4 Organizar
               .color-fondo-text.bg-color
                 .color-fondo-text__texto 
                   p Se establece el personal que las va a desempeñar y los recursos necesarios para la buena gestión.
@@ -317,7 +317,7 @@
             .col-lg-4
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img37.svg', alt='')
             .col-lg-6
-              h5 Dirigir
+              h4 Dirigir
               .color-fondo-text.bg-color
                 .color-fondo-text__texto 
                   p Es el proceso de seguimiento de las actividades delegadas a cada área o personal responsable, en su ejecución por cada líder de proceso para guiar, motivar y generar el trabajo en equipo para el cumplimiento de la planeación establecida.
@@ -325,7 +325,7 @@
         .col-11
           .row.justify-content-center.align-items-center.bg10.p-4.b-rad  
             .col-lg-6
-              h5 Controlar
+              h4 Controlar
               .color-fondo-text.bg-color
                 .color-fondo-text__texto 
                   p Se verifica el cumplimiento de las actividades propuestas, haciendo mediciones por medio de indicadores de gestión, revisando el desempeño, mirando dificultades en el proceso y tomando decisiones para las acciones correctivas y de mejora continua para mitigar el riesgo de incumplimiento de lo planeado.

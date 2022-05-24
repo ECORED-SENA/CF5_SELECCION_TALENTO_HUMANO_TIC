@@ -8,7 +8,7 @@
       h1 Direccionamiento estratégico
 
     .row.justify-content-center.align-items-center
-      .col-lg-4
+      .col-lg-4.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img45.png', alt='')
 
       .col-lg-8
@@ -17,7 +17,7 @@
           .col-auto.d-none.d-lg-block
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img3.png', alt='')       
           .col-lg-11
-            p(data-aos="fade-down").mb-0.p-blue El direccionamiento estratégico son los planes, políticas, programas, normas y sistemas que crean las organizaciones a nivel general para que las empresas perduren en el tiempo cumpliendo sus objetivos y razón de ser para los cuales fueron creadas, es decir son planteamientos a largo plazo y constantes para que las compañías sean duraderas.
+            p(data-aos="fade-down").mb-0.p-blue #[b El direccionamiento estratégico son los planes, políticas, programas, normas y sistemas que crean las organizaciones a nivel general para que las empresas perduren en el tiempo cumpliendo sus objetivos y razón de ser para los cuales fueron creadas, es decir son planteamientos a largo plazo y constantes para que las compañías sean duraderas.]
         .bg-cajon
           .cajon.color-primario.p-4.mt-4(data-aos="flip-down")
             p(data-aos="fade-down").mb-0 Los pilares del direccionamiento estratégico son la misión, visión y valores organizacionales que generan un plan de respuesta que es la planeación estratégica.   
@@ -32,58 +32,102 @@
           .col-auto.d-none.d-lg-block
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img47.svg', alt='')       
           .col-lg-10
-            p(data-aos="fade-down").mb-0.c-purple Una herramienta de diagnóstico óptima para la gestión, es el análisis FODA que tiene como propósito brindar información del estado actual de la empresa para generar las estrategias de respuesta según sea necesario.
+            p(data-aos="fade-down").mb-0.c-purple #[b Una herramienta de diagnóstico óptima para la gestión, es el análisis FODA que tiene como propósito brindar información del estado actual de la empresa para generar las estrategias de respuesta según sea necesario.]
       .col-lg-3.bg-gray.px-5.py-4             
     .row.justify-content-end.align-items-center                  
       .col-lg-5.p-0.up.m-top.d-none.d-lg-block
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img46.svg', alt='')
     img.img-a.img-t.mt-3.d-block.d-lg-none(data-aos="zoom-in")(src='@/assets/curso/temas/img46.svg', alt='')
-    p(data-aos="fade-down").mt-5.p-under #[b El análisis FODA diagnostica cuatro (4) entornos de la organización que son:]  
+    p(data-aos="fade-down").mt-5.p-under.size-t #[b El análisis FODA diagnostica cuatro (4) entornos de la organización que son:]  
     .bg5
-      .row.mt-5
-        .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="fade-right")
-          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-            .indicador--hover(v-if="indicadorTarjetaSlide")
-            .tarjeta-slide__contenedor
-              .tarjeta-slide__contenido.p-4.p-xl-5
-                h5.p-color1.text-center.pt-4 Fortalezas
-                p.text-white Son de carácter interno de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus a lo que está bien.
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img49.jpg')})`}")
-                h3.text-center.p-flip_img.p-color1.py-3 Fortalezas
+      //- .row.mt-5
+      //-   .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="fade-right")
+      //-     .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+      //-       .indicador--hover(v-if="indicadorTarjetaSlide")
+      //-       .tarjeta-slide__contenedor
+      //-         .tarjeta-slide__contenido.p-4.p-xl-5
+      //-           h5.p-color1.text-center.pt-4 Fortalezas
+      //-           p.text-white Son de carácter interno de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus a lo que está bien.
+      //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img49.jpg')})`}")
+      //-           h3.text-center.p-flip_img.p-color1.py-3 Fortalezas
 
-        .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="fade-right")
-          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-            .indicador--hover(v-if="indicadorTarjetaSlide")
-            .tarjeta-slide__contenedor
-              .tarjeta-slide__contenido.p-4.p-xl-5
-                h5.p-color1.text-center.pt-4 Oportunidades
-                p.text-white Son de carácter externo de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus la gestión que podría hacer para mejorar.
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img50.jpg')})`}")
-                h3.text-center.p-flip_img.p-color1.py-3 Oportunidades
+      //-   .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="fade-right")
+      //-     .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+      //-       .indicador--hover(v-if="indicadorTarjetaSlide")
+      //-       .tarjeta-slide__contenedor
+      //-         .tarjeta-slide__contenido.p-4.p-xl-5
+      //-           h5.p-color1.text-center.pt-4 Oportunidades
+      //-           p.text-white Son de carácter externo de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus la gestión que podría hacer para mejorar.
+      //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img50.jpg')})`}")
+      //-           h3.text-center.p-flip_img.p-color1.py-3 Oportunidades
 
-        .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="fade-left")
-          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-            .indicador--hover(v-if="indicadorTarjetaSlide")
-            .tarjeta-slide__contenedor
-              .tarjeta-slide__contenido.p-4.p-xl-5
-                h5.p-color1.text-center.pt-4 Debilidades
-                p.text-white Son de carácter interno de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus a lo que no funciona bien.
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img51.jpg')})`}")
-                h3.text-center.p-flip_img.p-color1.py-3 Debilidades 
+      //-   .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="fade-left")
+      //-     .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+      //-       .indicador--hover(v-if="indicadorTarjetaSlide")
+      //-       .tarjeta-slide__contenedor
+      //-         .tarjeta-slide__contenido.p-4.p-xl-5
+      //-           h5.p-color1.text-center.pt-4 Debilidades
+      //-           p.text-white Son de carácter interno de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus a lo que no funciona bien.
+      //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img51.jpg')})`}")
+      //-           h3.text-center.p-flip_img.p-color1.py-3 Debilidades 
 
-        .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="fade-left")
-          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-            .indicador--hover(v-if="indicadorTarjetaSlide")
-            .tarjeta-slide__contenedor
-              .tarjeta-slide__contenido.p-4.p-xl-5
-                h5.p-color1.text-center.pt-4 Amenazas
-                p.text-white Son de carácter externo de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus problemas que se puedan presentar que puedan afectar la consecución del mismo.
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img52.jpg')})`}")
-                h3.text-center.p-flip_img.p-color1.py-3 Amenazas
+      //-   .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="fade-left")
+      //-     .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+      //-       .indicador--hover(v-if="indicadorTarjetaSlide")
+      //-       .tarjeta-slide__contenedor
+      //-         .tarjeta-slide__contenido.p-4.p-xl-5
+      //-           h5.p-color1.text-center.pt-4 Amenazas
+      //-           p.text-white Son de carácter externo de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus problemas que se puedan presentar que puedan afectar la consecución del mismo.
+      //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img52.jpg')})`}")
+      //-           h3.text-center.p-flip_img.p-color1.py-3 Amenazas
+
+    .row.justify-content-center
+      .col-lg-12
+        .row.mb-4.mb-md-5(data-aos="fade-down")
+          .col-lg-3.my-3
+            .tarjeta.tarjeta-foto-hover
+              .tarjeta-foto-hover__img: img(src='@/assets/curso/temas/img49.jpg')
+              .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2
+                h4.text-center.p-color1.mb-0 Fortalezas
+              .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
+                .p-4.text-center
+                  h4.p-color1 Fortalezas
+                  p.mb-0.text-white Son de carácter interno de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus a lo que está bien.
+
+          .col-lg-3.my-3
+            .tarjeta.tarjeta-foto-hover
+              .tarjeta-foto-hover__img: img(src='@/assets/curso/temas/img50.jpg')
+              .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2
+                h4.text-center.p-color1.mb-0 Oportunidades
+              .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
+                .p-4.text-center
+                  h4.p-color1 Oportunidades
+                  p.mb-0.text-white Son de carácter externo de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus la gestión que podría hacer para mejorar.
+
+          .col-lg-3.my-3
+            .tarjeta.tarjeta-foto-hover
+              .tarjeta-foto-hover__img: img(src='@/assets/curso/temas/img51.jpg')
+              .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2
+                h4.text-center.p-color1.mb-0 Debilidades
+              .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
+                .p-4.text-center
+                  h4.p-color1 Debilidades
+                  p.mb-0.text-white Son de carácter interno de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus a lo que no funciona bien.
+
+          .col-lg-3.my-3
+            .tarjeta.tarjeta-foto-hover
+              .tarjeta-foto-hover__img: img(src='@/assets/curso/temas/img52.jpg')
+              .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2
+                h4.text-center.p-color1.mb-0 Amenazas
+              .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
+                .p-4.text-center
+                  h4.p-color1 Amenazas
+                  p.mb-0.text-white Son de carácter externo de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus problemas que se puedan presentar que puedan afectar la consecución del mismo.                        
+                                                      
 
       p(data-aos="fade-down").mt-5 Una vez se tienen los resultados de la situación actual de la empresa, se generan las estrategias de respuesta para cada uno de los cuatro entornos como se representa en la siguiente tabla.
     .row.justify-content-center.align-items-center                  
-      .col-lg-12.up
+      .col-lg-10.up
         .titulo-sexto.color-acento-botones.mt-5
           h5 Tabla 1.
           span Presentación de matriz FODA y estrategias
@@ -91,16 +135,16 @@
         .tabla-a.color-acento-botones.mt-3.up 
           table
             thead
-              tr.text-center.text-white.bg-tr
-                <td colspan="4"> Matriz FODA y estrategias </td>
+              tr.text-center.text-white.bg-tr.size-t
+                <td colspan="4"> <b>Matriz FODA y estrategias</b> </td>
             tbody
               tr
                 <td colspan="4"> </td>            
               tr.bg-tr1
-                td.text-center.cel-b #[b Fortalezas]
-                td.text-center.cel-b #[b Estrategias FO]
-                td.text-center.cel-b #[b Debilidades]
-                td.text-center.cel-b #[b Estrategias DO]
+                td.text-center.cel-b.size-t #[b Fortalezas]
+                td.text-center.cel-b.size-t #[b Estrategias FO]
+                td.text-center.cel-b.size-t #[b Debilidades]
+                td.text-center.cel-b.size-t #[b Estrategias DO]
               tr
                 td.text-center.cel-b F -1
                 td.text-center.cel-b E -1
@@ -160,16 +204,16 @@
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img47.svg', alt='')       
           .col-lg-10
             p(data-aos="fade-down") Se generan estrategias 
-              span.p-blue FO 
+              span.p-blue #[b FO ]
               span que nacen de la comparación de las fortalezas y oportunidades. 
             p(data-aos="fade-down") Se generan estrategias 
-              span.p-blue FA 
+              span.p-blue #[b FA ]
               span que nacen de la comparación de las fortalezas y amenazas.
             p(data-aos="fade-down") Se generan estrategias 
-              span.p-blue DO 
+              span.p-blue #[b DO ]
               span que nacen de la comparación de las debilidades y oportunidades.
             p(data-aos="fade-down").mb-0 Se generan estrategias 
-              span.p-blue DA 
+              span.p-blue #[b DA ]
               span que nacen de la comparación de las debilidades y amenazas.
      
     Separador 
@@ -178,7 +222,7 @@
     p(data-aos="fade-down") Una vez visto el análisis FODA, surgen varios interrogantes con el entorno que rodea a la empresa, debido a que se pudo identificar que se hizo un diagnóstico interno, pero también se tuvo en cuenta el externo.
 
     .row.justify-content-center.align-items-center.mt-5
-      .col-lg-5
+      .col-lg-5.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img52.svg', alt='')
 
       .col-lg-6
@@ -189,7 +233,7 @@
             p(data-aos="fade-down").mb-0 El entorno organizacional es un grupo compuesto por partes interesadas que influyen en la gestión continua de las actividades de la empresa con las que interactúa y pueden afectar o beneficiar los objetivos y metas de la compañía. 
         p(data-aos="fade-down").mt-4 Por eso, desde la dirección estratégica se debe conocer y tener en cuenta cada variable del entorno para la planeación y proyectos que se deseen emplear dentro de la organización.
     .bg14
-      p(data-aos="fade-down").mt-5.p-under #[b A continuación, se representan algunos de los factores del entorno empresarial.]
+      p(data-aos="fade-down").mt-5.p-under.size-t #[b A continuación, se representan algunos de los factores del entorno empresarial.]
       .row.justify-content-center.align-items-center.mt-5
         .col-lg-6
           .row.justify-content-center.mb-5
@@ -199,7 +243,7 @@
                   .row.justify-content-center.mb-3
                     .col-8
                       img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img55.svg', alt='')
-                  h5.text-center Microentorno
+                  h4.text-center Microentorno
                   ul.lista-ul--color
                     li 
                       i.fas.fa-caret-right
@@ -229,7 +273,7 @@
                   .row.justify-content-center.mb-3
                     .col-8
                       img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img55.svg', alt='')
-                  h5.text-center Macroentorno
+                  h4.text-center Macroentorno
                   ul.lista-ul--color
                     li 
                       i.fas.fa-caret-right
@@ -250,7 +294,7 @@
                   .row.justify-content-center.mb-3
                     .col-8
                       img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img55.svg', alt='')
-                  h5.text-center Interno
+                  h4.text-center Interno
                   ul.lista-ul--color
                     li 
                       i.fas.fa-caret-right
@@ -274,7 +318,7 @@
                   .row.justify-content-center.mb-3
                     .col-8
                       img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img55.svg', alt='')
-                  h5.text-center Interno
+                  h4.text-center Interno
                   ul.lista-ul--color
                     li 
                       i.fas.fa-caret-right
@@ -318,7 +362,7 @@
             .col-auto.d-none.d-lg-block
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img3.png', alt='')       
             .col-lg-11
-              p(data-aos="fade-down").mb-0.p-blue Las organizaciones no solo compiten por los clientes externos, que son los que compran o consumen productos y servicios, sino que también lo hacen en el mercado laboral para atraer el personal más cualificado que pueda aportar a las diferentes necesidades de las empresas. Así como en el mercado se ofrecen productos y servicios según la oferta y la demanda, lo mismo sucede con el personal laboral y las empresas. 
+              p(data-aos="fade-down").mb-0.p-blue #[b Las organizaciones no solo compiten por los clientes externos, que son los que compran o consumen productos y servicios, sino que también lo hacen en el mercado laboral para atraer el personal más cualificado que pueda aportar a las diferentes necesidades de las empresas. Así como en el mercado se ofrecen productos y servicios según la oferta y la demanda, lo mismo sucede con el personal laboral y las empresas. ]
           p(data-aos="fade-down").mt-4 Entonces, ¿qué es el mercado laboral? 
 
       .bloque-texto-g1.color-primario.p-3.p-sm-4.p-md-5.mt-5(data-aos="fade-left")
@@ -326,10 +370,10 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/img58.png')})`}"
         )
         .bloque-texto-g1__texto.p-4
-          p.mb-0 #[b Mercado laboral]
-            br          
-            br
-            | Son la demanda, vacantes, convocatorias laborales que existen y se presentan, así como la oferta que son los candidatos cualificados según cada perfil para desempeñar los diferentes puestos laborales.         
+          h4.mb-0 #[b Mercado laboral]
+          br          
+          br
+          p Son la demanda, vacantes, convocatorias laborales que existen y se presentan, así como la oferta que son los candidatos cualificados según cada perfil para desempeñar los diferentes puestos laborales.         
 
       .row.justify-content-center.align-items-center.mt-5
         .col-lg-3
@@ -338,17 +382,16 @@
         .col-lg-9
           .row.justify-content-center.align-items-center     
             .col-auto.d-none.d-lg-block
-              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img47.svg', alt='')       
+              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img69.svg', alt='')       
             .col-lg-10
               p(data-aos="fade-down") Es muy importante tener en cuenta el impacto que genera en la economía este mercado, porque en ocasiones existe personal muy calificado o descalificado para ejercer ciertas funciones, o se presentan situaciones que ciertas profesiones no tienen demanda como puede también pasar poca oferta, generando un desequilibrio en la ocupación de personas laboralmente en un país, causando deserción a otros, perdiendo mano de obra o simplemente realizando actividades ajenas a la profesión.         
           p(data-aos="fade-down") El mercado laboral cuenta con una estructura que genera variables de empleabilidad que se visualizarán en la siguiente lista.
 
     .row.justify-content-center.align-items-center.mt-5
-      .col-lg-6.up
+      .col-lg-6.up.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img60.svg', alt='')
-
       .col-lg-4.up
-        .bg-blue.p-4
+        .bg-blue.p-4.shw
           ul.lista-ul--color
             li(data-aos="fade-down") 
               i.fas.fa-caret-right
@@ -417,7 +460,7 @@
             .col-auto.d-none.d-lg-block
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img63.svg', alt='')       
             .col-lg-9
-              p(data-aos="fade-down").mb-0.c-purple Tiene como objetivo incentivar que los propósitos de la organización sean también de los empleados, conocer las necesidades de funciones, requisitos, ambiente, conocimientos, experiencias y demás condiciones para establecer un perfil idóneo.
+              p(data-aos="fade-down").mb-0.c-purple #[b Tiene como objetivo incentivar que los propósitos de la organización sean también de los empleados, conocer las necesidades de funciones, requisitos, ambiente, conocimientos, experiencias y demás condiciones para establecer un perfil idóneo.]
           .bg-cajon1
             .cajon.color-secundario.p-4.mt-4.up(data-aos="flip-down")
               p(data-aos="fade-down").mb-0 Una vez establecidas las actividades y responsabilidades, sirve también para la asignación de salarios.
@@ -432,7 +475,7 @@
           p(data-aos="fade-down").mb-0.p-blue #[b Para establecer este proceso se generan una serie de pasos, que en la siguiente figura se representan.]
  
       .row.justify-content-center.align-items-center.mt-5        
-        .col-12.up 
+        .col-8.up 
           .titulo-sexto.color-acento-botones
             h5 Figura 3. 
             span Pasos para elaboración de la estructura de cargos
@@ -446,7 +489,7 @@
 
     .bg16
       .row.justify-content-center.align-items-center.mt-5        
-        .col-lg-4
+        .col-lg-4.my-3
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img67.png', alt='') 
         .col-lg-8
           LineaTiempoD.color-primario
@@ -489,24 +532,24 @@
       .col-lg-8
         .row.justify-content-center.align-items-center.my-5.color1.p-3(data-aos="flip-down")        
           .col-auto.d-none.d-lg-block
-            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img9.png', alt='')       
+            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img70.svg', alt='')       
           .col-lg-11
             p(data-aos="fade-down").mb-0 Es de aclarar que la creación de cargos puede también nacer de un nuevo procedimiento, norma o cambios en el entorno que vive la organización.
         p(data-aos="fade-down").mt-4 En la fase final del proceso, una vez el cargo es aprobado, ya sea en comité o por la alta gerencia, se procede a hacer la formalización de la creación del perfil del cargo con la información anteriormente recolectada. El “perfil de cargos” es un documento en el que están descritas, de forma puntual, las características y actividades que debe desarrollar el funcionario en el cargo, así como la formación y competencias que se requieren.
 
         .tarjeta.color-primario.p-3.mt-5(data-aos="flip-down")
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
+            .col-3.col-sm-2.col-lg-2
               img(src="@/assets/curso/temas/book.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white
-                  p.mb-0 Aquí se puede descargar un formato esqueleto para la creación de un perfil de cargos y funciones.
+                  p.mb-0 #[b Aquí se puede descargar un formato esqueleto para la creación de un perfil de cargos y funciones.]
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/perfiles_de_cargos.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download        
-      .col-lg-4
+      .col-lg-4.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img68.svg', alt='') 
 
     .row.justify-content-center.align-items-center.mt-5               

@@ -24,14 +24,14 @@
       .col-lg-9.up 
         p(data-aos="fade-down").mb-0 #[b Se invita a conocer un poco la explicación de cada una de las áreas funcionales:] 
 
-    SlyderA.mt-5(data-aos="fade-left") 
+    SlyderA(tipo="b").mt-5(data-aos="fade-left") 
       .row.justify-content-center.align-items-center
         .col-11
           .row.justify-content-center.align-items-center.bg7.p-4.b-rad          
             .col-lg-4
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img39.svg', alt='')
             .col-lg-6
-              h5 Dirección
+              h4 Dirección
               .color-fondo-text.bg-color
                 .color-fondo-text__texto 
                   p Es el equipo que genera las estrategias generales de la organización para el cumplimiento de la misión, visión y objetivos organizacionales.
@@ -39,7 +39,7 @@
         .col-11
           .row.justify-content-center.align-items-center.bg8.p-4.b-rad       
             .col-lg-6
-              h5 Contable
+              h4 Contable
               .color-fondo-text.bg-color
                 .color-fondo-text__texto 
                   p Es el equipo que genera las estrategias generales de la organización para el cumplimiento de la misión, visión y objetivos organizacionales.
@@ -51,7 +51,7 @@
             .col-lg-4
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img41.svg', alt='')
             .col-lg-6
-              h5 Producción
+              h4 Producción
               .color-fondo-text.bg-color
                 .color-fondo-text__texto 
                   p Desarrolla las actividades de elaboración de productos o servicios según la actividad económica de la empresa, es decir adelantan la gestión técnica, además de velar por la calidad de la misma.
@@ -59,7 +59,7 @@
         .col-11
           .row.justify-content-center.align-items-center.bg10.p-4.b-rad 
             .col-lg-6
-              h5 Administración
+              h4 Administración
               .color-fondo-text.bg-color
                 .color-fondo-text__texto 
                   p Área enfocada en la coordinación de todos los recursos de la empresa con el propósito de establecer un orden de ellos en la misma, suministrando a cada área lo necesario para que pueda hacer su actividad de forma adecuada y sin generar faltantes ni desperdicios.
@@ -72,7 +72,7 @@
             .col-lg-4
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img43.svg', alt='')
             .col-lg-6
-              h5 Gestión humana
+              h4 Gestión humana
               .color-fondo-text.bg-color
                 .color-fondo-text__texto 
                   p Es el área encargada de generar estrategias para la consecución del personal, su óptimo desarrollo, motivación, equidad, buenas relaciones, seguridad e higiene, ambiente y su administración. Dentro de sus actividades ejerce la creación de cargos, preselección, contratación, afiliación, capacitación, evaluación, bienestar y todas aquellas actividades en pro del crecimiento de la empresa por medio del capital humano.
@@ -80,7 +80,7 @@
         .col-11
           .row.justify-content-center.align-items-center.bg12.p-4.b-rad 
             .col-lg-6
-              h5 Ventas
+              h4 Ventas
               .color-fondo-text.bg-color
                 .color-fondo-text__texto 
                   p Es la dependencia encargada de atraer nuevos clientes y mantener los actuales vendiéndoles los productos o servicios que ofrece la empresa. Es decir, generan las estrategias para el crecimiento de la empresa a través de la oferta de los productos y servicios generando ingresos y apertura de nuevos mercados para el cumplimiento de la misión y visión organizacional.
