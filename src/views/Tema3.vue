@@ -216,6 +216,8 @@
               span.p-blue #[b DA ]
               span que nacen de la comparación de las debilidades y amenazas.
      
+    p(data-aos="fade-down").mt-5 En conclusión, la herramienta FODA sirve para identificar la situación actual de la empresa frente a sus objetivos mediante un diagnóstico interno y externo, para la creación de estrategias de mejora para mitigar el riesgo de incumplimiento de las metas.     
+
     Separador 
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 3.2 Factores del entorno empresarial
@@ -444,6 +446,9 @@
             li(data-aos="fade-down") 
               i.fas.fa-caret-right
               p.mb-0 Aumento de ingresos.
+            li(data-aos="fade-down") 
+              i.fas.fa-caret-right
+              p.mb-0 Legislación laboral.              
     .bg15  
       .row.justify-content-center.align-items-center.my-5.color2.p-3(data-aos="flip-down")        
         .col-auto.d-none.d-lg-block

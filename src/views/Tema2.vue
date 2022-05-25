@@ -31,18 +31,19 @@
             .col-lg-4
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img39.svg', alt='')
             .col-lg-6
-              h4 Dirección
+              h4 Contable
               .color-fondo-text.bg-color
                 .color-fondo-text__texto 
-                  p Es el equipo que genera las estrategias generales de la organización para el cumplimiento de la misión, visión y objetivos organizacionales.
+                  p Realiza la gestión de proyectar a la empresa a nivel financiero para la toma de decisiones apoyando la consecución del capital económico.            
+
       .row.justify-content-center.align-items-center
         .col-11
           .row.justify-content-center.align-items-center.bg8.p-4.b-rad       
             .col-lg-6
-              h4 Contable
+              h4 Producción
               .color-fondo-text.bg-color
                 .color-fondo-text__texto 
-                  p Es el equipo que genera las estrategias generales de la organización para el cumplimiento de la misión, visión y objetivos organizacionales.
+                  p Desarrolla las actividades de elaboración de productos o servicios según la actividad económica de la empresa, es decir adelantan la gestión técnica, además de velar por la calidad de la misma.
             .col-lg-4
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img40.svg', alt='')
       .row.justify-content-center.align-items-center
@@ -51,10 +52,10 @@
             .col-lg-4
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img41.svg', alt='')
             .col-lg-6
-              h4 Producción
+              h4 Dirección
               .color-fondo-text.bg-color
                 .color-fondo-text__texto 
-                  p Desarrolla las actividades de elaboración de productos o servicios según la actividad económica de la empresa, es decir adelantan la gestión técnica, además de velar por la calidad de la misma.
+                  p Es el equipo que genera las estrategias generales de la organización para el cumplimiento de la misión, visión y objetivos organizacionales.
       .row.justify-content-center.align-items-center
         .col-11
           .row.justify-content-center.align-items-center.bg10.p-4.b-rad 
@@ -72,18 +73,19 @@
             .col-lg-4
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img43.svg', alt='')
             .col-lg-6
-              h4 Gestión humana
+              h4 Ventas
               .color-fondo-text.bg-color
                 .color-fondo-text__texto 
-                  p Es el área encargada de generar estrategias para la consecución del personal, su óptimo desarrollo, motivación, equidad, buenas relaciones, seguridad e higiene, ambiente y su administración. Dentro de sus actividades ejerce la creación de cargos, preselección, contratación, afiliación, capacitación, evaluación, bienestar y todas aquellas actividades en pro del crecimiento de la empresa por medio del capital humano.
+                  p Es la dependencia encargada de atraer nuevos clientes y mantener los actuales vendiéndoles los productos o servicios que ofrece la empresa. Es decir, generan las estrategias para el crecimiento de la empresa a través de la oferta de los productos y servicios generando ingresos y apertura de nuevos mercados para el cumplimiento de la misión y visión organizacional.           
+
       .row.justify-content-center.align-items-center
         .col-11
           .row.justify-content-center.align-items-center.bg12.p-4.b-rad 
             .col-lg-6
-              h4 Ventas
+              h4 Gestión humana
               .color-fondo-text.bg-color
                 .color-fondo-text__texto 
-                  p Es la dependencia encargada de atraer nuevos clientes y mantener los actuales vendiéndoles los productos o servicios que ofrece la empresa. Es decir, generan las estrategias para el crecimiento de la empresa a través de la oferta de los productos y servicios generando ingresos y apertura de nuevos mercados para el cumplimiento de la misión y visión organizacional.
+                  p Es el área encargada de generar estrategias para la consecución del personal, su óptimo desarrollo, motivación, equidad, buenas relaciones, seguridad e higiene, ambiente y su administración. Dentro de sus actividades ejerce la creación de cargos, preselección, contratación, afiliación, capacitación, evaluación, bienestar y todas aquellas actividades en pro del crecimiento de la empresa por medio del capital humano.
             .col-lg-4
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img44.svg', alt='')
 

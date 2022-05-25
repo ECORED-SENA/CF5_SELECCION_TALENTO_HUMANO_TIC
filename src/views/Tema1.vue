@@ -19,7 +19,7 @@
             .col-lg-11
               p(data-aos="fade-down").mb-0 Entendiendo esto, se dice que una empresa es una organización con objetivos, propósitos y metas, los cuales consigue de forma ordenada y coordinada a través del desarrollo de sus actividades. 
           .cajon.color-primario.p-4.mt-4(data-aos="flip-down")
-            p(data-aos="fade-down").mb-0  Las organizaciones están agrupadas dentro de diferentes tipos. Las empresas pueden clasificarse y diferenciarse por la procedencia de su capital, por su tamaño, por el lugar de operación, por el sector económico y a nivel de personal; esta última categoría se divide en formales e informales. A continuación, se explicará cada una de las anteriores agrupaciones. 
+            p(data-aos="fade-down").mb-0  #[b Las organizaciones están agrupadas dentro de diferentes tipos.] Las empresas pueden clasificarse y diferenciarse por la procedencia de su capital, por su tamaño, por el lugar de operación, por el sector económico y a nivel de personal; esta última categoría se divide en formales e informales. A continuación, se explicará cada una de las anteriores agrupaciones. 
 
           p(data-aos="fade-down").mt-4 Ahora, se verán los tres tipos de procedencia de capital que puede tener una empresa.
 
@@ -196,7 +196,7 @@
                   .h5 Cuaternarias
                 .col-auto.p-0
                   img.img-w(src='@/assets/curso/temas/04.svg', alt='')
-              p Brinda apoyo a las unidades de líneas. Siempre están dependiendo de la alta gerencia y por lo general su comucación ingresa por la derecha o izquierda del rectángulo o cuadrado, y brindan asesoramiento a los demás departamentos o unidades. también llamada línea staff, se representa de manera punteada.
+              p Adelantan su actividad económica a través del conocimiento e invención, diseño y desarrollo, como investigaciones científicas que ofrecen calidad de vida a una comunidad organizacional o la vida en general.
 
 
 
