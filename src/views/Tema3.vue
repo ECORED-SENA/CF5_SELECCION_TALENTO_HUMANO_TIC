@@ -43,43 +43,43 @@
     .row.justify-content-center
       .col-lg-12
         .row.mb-4.mb-md-5(data-aos="fade-down")
-          .col-lg-3.my-3
+          .col-lg-3.col-md-6.my-3
             .tarjeta.tarjeta-foto-hover
               .tarjeta-foto-hover__img: img(src='@/assets/curso/temas/img49.png')
               .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2
                 h4.text-center.p-color1.mb-0 Fortalezas
               .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
-                .p-4.text-center
+                .p-2.text-center
                   h4.p-color1 Fortalezas
                   p.mb-0.text-white Son de carácter interno de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus a lo que está bien.
 
-          .col-lg-3.my-3
+          .col-lg-3.col-md-6.my-3
             .tarjeta.tarjeta-foto-hover
               .tarjeta-foto-hover__img: img(src='@/assets/curso/temas/img50.png')
               .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2
                 h4.text-center.p-color1.mb-0 Oportunidades
               .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
-                .p-4.text-center
+                .p-2.text-center
                   h4.p-color1 Oportunidades
                   p.mb-0.text-white Son de carácter externo de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus la gestión que podría hacer para mejorar.
 
-          .col-lg-3.my-3
+          .col-lg-3.col-md-6.my-3
             .tarjeta.tarjeta-foto-hover
               .tarjeta-foto-hover__img: img(src='@/assets/curso/temas/img51.png')
               .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2
                 h4.text-center.p-color1.mb-0 Debilidades
               .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
-                .p-4.text-center
+                .p-2.text-center
                   h4.p-color1 Debilidades
                   p.mb-0.text-white Son de carácter interno de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus a lo que no funciona bien.
 
-          .col-lg-3.my-3
+          .col-lg-3.col-md-6.my-3
             .tarjeta.tarjeta-foto-hover
               .tarjeta-foto-hover__img: img(src='@/assets/curso/temas/img52.png')
               .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2
                 h4.text-center.p-color1.mb-0 Amenazas
               .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
-                .p-4.text-center
+                .p-2.text-center
                   h4.p-color1 Amenazas
                   p.mb-0.text-white Son de carácter externo de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus problemas que se puedan presentar que puedan afectar la consecución del mismo.                        
                                                       
