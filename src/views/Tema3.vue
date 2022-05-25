@@ -40,53 +40,12 @@
     img.img-a.img-t.mt-3.d-block.d-lg-none(data-aos="zoom-in")(src='@/assets/curso/temas/img46.svg', alt='')
     p(data-aos="fade-down").mt-5.p-under.size-t #[b El análisis FODA diagnostica cuatro (4) entornos de la organización que son:]  
     .bg5
-      //- .row.mt-5
-      //-   .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="fade-right")
-      //-     .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-      //-       .indicador--hover(v-if="indicadorTarjetaSlide")
-      //-       .tarjeta-slide__contenedor
-      //-         .tarjeta-slide__contenido.p-4.p-xl-5
-      //-           h5.p-color1.text-center.pt-4 Fortalezas
-      //-           p.text-white Son de carácter interno de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus a lo que está bien.
-      //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img49.jpg')})`}")
-      //-           h3.text-center.p-flip_img.p-color1.py-3 Fortalezas
-
-      //-   .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="fade-right")
-      //-     .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-      //-       .indicador--hover(v-if="indicadorTarjetaSlide")
-      //-       .tarjeta-slide__contenedor
-      //-         .tarjeta-slide__contenido.p-4.p-xl-5
-      //-           h5.p-color1.text-center.pt-4 Oportunidades
-      //-           p.text-white Son de carácter externo de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus la gestión que podría hacer para mejorar.
-      //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img50.jpg')})`}")
-      //-           h3.text-center.p-flip_img.p-color1.py-3 Oportunidades
-
-      //-   .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="fade-left")
-      //-     .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-      //-       .indicador--hover(v-if="indicadorTarjetaSlide")
-      //-       .tarjeta-slide__contenedor
-      //-         .tarjeta-slide__contenido.p-4.p-xl-5
-      //-           h5.p-color1.text-center.pt-4 Debilidades
-      //-           p.text-white Son de carácter interno de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus a lo que no funciona bien.
-      //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img51.jpg')})`}")
-      //-           h3.text-center.p-flip_img.p-color1.py-3 Debilidades 
-
-      //-   .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="fade-left")
-      //-     .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-      //-       .indicador--hover(v-if="indicadorTarjetaSlide")
-      //-       .tarjeta-slide__contenedor
-      //-         .tarjeta-slide__contenido.p-4.p-xl-5
-      //-           h5.p-color1.text-center.pt-4 Amenazas
-      //-           p.text-white Son de carácter externo de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus problemas que se puedan presentar que puedan afectar la consecución del mismo.
-      //-         .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/img52.jpg')})`}")
-      //-           h3.text-center.p-flip_img.p-color1.py-3 Amenazas
-
     .row.justify-content-center
       .col-lg-12
         .row.mb-4.mb-md-5(data-aos="fade-down")
           .col-lg-3.my-3
             .tarjeta.tarjeta-foto-hover
-              .tarjeta-foto-hover__img: img(src='@/assets/curso/temas/img49.jpg')
+              .tarjeta-foto-hover__img: img(src='@/assets/curso/temas/img49.png')
               .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2
                 h4.text-center.p-color1.mb-0 Fortalezas
               .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
@@ -96,7 +55,7 @@
 
           .col-lg-3.my-3
             .tarjeta.tarjeta-foto-hover
-              .tarjeta-foto-hover__img: img(src='@/assets/curso/temas/img50.jpg')
+              .tarjeta-foto-hover__img: img(src='@/assets/curso/temas/img50.png')
               .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2
                 h4.text-center.p-color1.mb-0 Oportunidades
               .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
@@ -106,7 +65,7 @@
 
           .col-lg-3.my-3
             .tarjeta.tarjeta-foto-hover
-              .tarjeta-foto-hover__img: img(src='@/assets/curso/temas/img51.jpg')
+              .tarjeta-foto-hover__img: img(src='@/assets/curso/temas/img51.png')
               .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2
                 h4.text-center.p-color1.mb-0 Debilidades
               .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
@@ -116,7 +75,7 @@
 
           .col-lg-3.my-3
             .tarjeta.tarjeta-foto-hover
-              .tarjeta-foto-hover__img: img(src='@/assets/curso/temas/img52.jpg')
+              .tarjeta-foto-hover__img: img(src='@/assets/curso/temas/img52.png')
               .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2
                 h4.text-center.p-color1.mb-0 Amenazas
               .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
