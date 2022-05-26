@@ -51,7 +51,7 @@
               .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
                 .p-2.text-center
                   h4.p-color1 Fortalezas
-                  p.mb-0.text-white Son de carácter interno de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus a lo que está bien.
+                  p.mb-0.text-white Son de carácter interno de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus lo que está bien.
 
           .col-lg-3.col-md-6.my-3
             .tarjeta.tarjeta-foto-hover
@@ -71,7 +71,7 @@
               .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
                 .p-2.text-center
                   h4.p-color1 Debilidades
-                  p.mb-0.text-white Son de carácter interno de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus a lo que no funciona bien.
+                  p.mb-0.text-white Son de carácter interno de la organización se evalúa cómo se encuentra la empresa frente al objetivo descrito versus lo que no funciona bien.
 
           .col-lg-3.col-md-6.my-3
             .tarjeta.tarjeta-foto-hover
@@ -469,7 +469,7 @@
 
             .row(numero="3" titulo="Funciones que desempeñará")
               .col-11
-                p Se desarrolla una serie de entrevistas con el área que hace la solicitud identificando cuales serían las funciones claves que realizaría y que en la actualidad no se hacen o por sobre carga la mantienen otros trabajadores. 
+                p Se desarrolla una serie de entrevistas con el área que hace la solicitud identificando cuales serían las funciones claves que realizaría y que en la actualidad no se hacen o por sobrecarga la mantienen otros trabajadores. 
 
             .row(numero="4" titulo="Requisitos para desempeñar las funciones según ambiente físico")
               .col-11
@@ -477,7 +477,7 @@
 
             .row(numero="5" titulo="Procesos y cargos con quien interactuará")
               .col-11
-                p Se hace una identificación sobre los procesos internos que se benefician y cómo sería la relación frente a la producción que reciba como entradas, también cuáles serían sus salidas y a quién o qué área las recibe.
+                p Se hace una identificación sobre los procesos internos que se benefician y cómo sería la relación frente a la producción que reciba como entradas, también cuáles serían sus salidas y quién o qué área las recibe.
 
             .row(numero="6" titulo="Autoridad, atribuciones y responsabilidades")
               .col-11

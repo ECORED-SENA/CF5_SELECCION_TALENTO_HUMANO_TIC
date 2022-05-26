@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Áreas funionales
+      h1 Áreas funcionales
 
     .row.justify-content-center.align-items-center.pt-5
       .col-lg-5.up
